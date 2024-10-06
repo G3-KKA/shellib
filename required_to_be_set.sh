@@ -1,5 +1,4 @@
-#! //bin/sh
-
+#! //bin/sh 
 
 #######################################
 ##       G3-KKA shell library        ##
@@ -31,7 +30,11 @@ required_to_be_set() {
         return 1 
     fi
 
-    if [  -z "${!1}"  ]; then
+    envval="$1"
+
+    eval envval=\$$envval
+
+    if [  -z "$envval"  ]; then
         if [ $# -gt 1 ]; then
             shift 
             for message in "$@" ; do

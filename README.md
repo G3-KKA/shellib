@@ -5,6 +5,6 @@
 
 # Notes
 
- - Fully sh compatable
+ - sh compatable 
  - Tested (a bit)
  - With standartized docs 

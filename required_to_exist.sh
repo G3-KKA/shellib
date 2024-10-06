@@ -1,7 +1,8 @@
 #! //bin/sh
+
 #######################################
-#G3-KKA shell library#
-#######################################
+##       G3-KKA shell library        ##
+## https://github.com/G3-KKA/shellib ##
 #######################################
 # Exits if given file not exist
 #
